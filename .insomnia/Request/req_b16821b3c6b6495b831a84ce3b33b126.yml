@@ -1,0 +1,39 @@
+_id: req_b16821b3c6b6495b831a84ce3b33b126
+type: Request
+parentId: fld_bfb38269724947d3852bc9f9b8a122ea
+modified: 1702396148489
+created: 1700856360298
+url: "{{ _.baseUrl }}/users/create"
+name: Create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Danniel Navas",
+    	"email": "dannielnavas@gmail.com",
+    	"password": "3139Odin!",
+    	"role": "admin",
+    	"typeDocument": "CC",
+    	"document": "1022376965",
+    	"phone": 3163418533,
+    	"coproperties": ["6570ad99cf167f549900d97a"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1701898417587
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_7d301b3d65384903a8631a905698ece9
+type: Request
+parentId: fld_6f44a46982a541aaa6febd966cb4ecb9
+modified: 1702396159274
+created: 1701885555370
+url: "{{ _.baseUrl }}/coproperty/6570ad99cf167f549900d97a"
+name: search coproperty id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1701898367416
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

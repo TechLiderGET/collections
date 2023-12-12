@@ -1,0 +1,41 @@
+_id: req_93a528b60e3e43a9abd17f2cbb089bd8
+type: Request
+parentId: fld_bc88a86cdc2142f28f20c5f67e580ae8
+modified: 1702396075602
+created: 1701361513613
+url: "{{ _.baseUrl }}/invoice"
+name: search invoices for user
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_6aa9633defa749f4ae507760e5bb6d16
+    name: state
+    value: pending
+    description: ""
+  - id: pair_e067ecfc5f114e86b40a66c644320c86
+    name: userId
+    value: 6570adb1cf167f549900d97e
+    description: ""
+  - id: pair_c23358c33dd1488c84386f4c73dc57a2
+    name: offset
+    value: "0"
+    description: ""
+  - id: pair_72ee1bf976ab464ea630c78b73e65985
+    name: limit
+    value: "10"
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1701898434553
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

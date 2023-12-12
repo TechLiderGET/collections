@@ -1,0 +1,37 @@
+_id: req_e041034fb51341389a8e85c268695d66
+type: Request
+parentId: fld_bc88a86cdc2142f28f20c5f67e580ae8
+modified: 1702396181690
+created: 1701100718205
+url: "{{ _.baseUrl }}/invoice"
+name: Create invoice
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"price": 60000,
+    	"state": "pending",
+    	"description": "Administración",
+    	"userId": "6570adb1cf167f549900d97e",
+    	"payments": [],
+    	"coproperty": "65787947d5f5fad3261a0712"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1701898434753
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

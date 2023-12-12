@@ -1,0 +1,29 @@
+_id: req_b026a2abaf12452aa61edc18eb2675eb
+type: Request
+parentId: fld_bfb38269724947d3852bc9f9b8a122ea
+modified: 1702396142086
+created: 1701870005662
+url: "{{ _.baseUrl }}/users"
+name: Search users
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1701898417487
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

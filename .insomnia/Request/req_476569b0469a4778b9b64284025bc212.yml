@@ -1,0 +1,29 @@
+_id: req_476569b0469a4778b9b64284025bc212
+type: Request
+parentId: fld_4ec1d1a7ae1a400fb56dbbde223014c5
+modified: 1702396229012
+created: 1701385433442
+url: "{{ _.baseUrl }}/payment/user/6572271743258b5953fb3fe2"
+name: Payment search
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1701898500454
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

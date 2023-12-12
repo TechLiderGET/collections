@@ -1,0 +1,37 @@
+_id: req_4927d22891d04855bda8e5c50f411696
+type: Request
+parentId: fld_398faca5ec4d4131be0db20dab73c5dc
+modified: 1702396114734
+created: 1702315775190
+url: "{{ _.baseUrl }}/details"
+name: Create detail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "Cuenta de Administración",
+    	"previousBalance": 100000,
+    	"valueCollected": 100000,
+    	"valuedPaid": 100000,
+    	"total": 100000,
+    	"invoice": "65787bcf589923cf13a47924"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702315775190
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

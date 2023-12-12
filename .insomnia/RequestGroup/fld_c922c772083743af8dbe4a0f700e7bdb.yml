@@ -1,0 +1,15 @@
+_id: fld_c922c772083743af8dbe4a0f700e7bdb
+type: RequestGroup
+parentId: wrk_1bba12daaa644df192b75f042e74070c
+modified: 1702396059205
+created: 1701898442786
+name: Ione
+description: ""
+environment:
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoidXNlciIsInN1YiI6IjY1NzBhZGIxY2YxNjdmNTQ5OTAwZDk3ZSIsImlhdCI6MTcwMjM5NTkxNiwiZXhwIjoxNzAyMzk5NTE2fQ.u15HXs183SI26jfLwVZU07tHhGp7lyaWG7TXDbH9bds
+  baseUrl: http://localhost:3000
+environmentPropertyOrder:
+  "&":
+    - token
+    - baseUrl
+metaSortKey: -1701898442786

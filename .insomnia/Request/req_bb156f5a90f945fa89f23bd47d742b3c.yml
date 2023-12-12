@@ -1,0 +1,39 @@
+_id: req_bb156f5a90f945fa89f23bd47d742b3c
+type: Request
+parentId: fld_d039cf282e00483aadb2667f73e584b4
+modified: 1702303556875
+created: 1701782566477
+url: https://gbm7mo3n1l.execute-api.us-east-1.amazonaws.com/prod/api/v1/contact
+name: Send Email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "topic": "idpay-wallet",
+        "body": "test",
+        "email": "dnavas@globalenterprise.com.co",
+    		"subject":  "Su registro de cuenta ha sido exitoso",
+    		"transaction_id": "12310",
+    		"account_origin": "1234455667",
+    		"financial_entity": "Banco",
+    		"transaction_value": 12330,
+    		"destination_account": "123123",
+    		"status": "Pendiente"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701898492706
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_50e29ac920ec47df931e89e9143b10f5
+type: Request
+parentId: fld_582dccb6a2c8418391cbdf304e54062d
+modified: 1701898379745
+created: 1700858375644
+url: http://localhost:3000/auth/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "dannielnavas@gmail.com",
+    	"password": "3139Odin!"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701898379657
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

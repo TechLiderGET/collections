@@ -1,0 +1,25 @@
+_id: req_abd99fb7564648e0bc1ddd9b32f3ecc4
+type: Request
+parentId: fld_bc88a86cdc2142f28f20c5f67e580ae8
+modified: 1702396191694
+created: 1701102538416
+url: "{{ _.baseUrl }}/user-invoice/6570adb1cf167f549900d97e/all"
+name: Invoices for user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1701898434653
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
